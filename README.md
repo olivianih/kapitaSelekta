@@ -14,12 +14,6 @@ Nama file hasil analisis sentimen Kompas: news_sentiment_result.csv
 ## Cara Menjalankan
 1. Clone repository project:
 
-git clone https://github.com/olivianih/kapitaSelekta
-
-cd nama-repository
-
-2. Install library yang dibutuhkan, buat file `.env` pada folder project, kemudian tambahkan token Hugging Face:
-
-HF_TOKEN=your_huggingface_token
+2. Install library yang dibutuhkan, buat file `.env` pada folder project, kemudian tambahkan token Hugging Face: HF_TOKEN=your_huggingface_token
 
 3. Jalankan program
