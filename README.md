@@ -1,15 +1,31 @@
-# kapitaSelekta
-
-file UAS_Artikel adalah file scraping dan analisis sentimen artikel dari Kompas
-file UAS_Instagram adalah file scraping dan analisis sentimen reels dari Instagram
+# Analisis Sentimen
 
 ## Cara Menjalankan
 
-1. Clone repository
+## Deskripsi
+File UAS_Artikel adalah file scraping dan analisis sentimen artikel dari Kompas
+File UAS_Instagram adalah file scraping dan analisis sentimen reels dari Instagram
+Nama file hasil analisis sentimen Kompas: news_sentiment_result.csv
 
-```bash
-git clone https://github.com/olivianih/kapitaSelekta
+## Teknologi yang Digunakan
+- Python
+- Hugging Face
+- IndoBERT
+- Library Python pendukung
 
-2. Install library yang dibutuhkan
+## Cara Menjalankan
+1. Clone repository project:
 
-3. Jalankan kode
+git clone https://github.com/username/nama-repository.git
+
+cd nama-repository
+
+2. Install library yang dibutuhkan, buat file `.env` pada folder project, kemudian tambahkan token Hugging Face:
+
+HF_TOKEN=your_huggingface_token
+
+3. Jalankan program:
+
+python nama_file.py
+
+Sesuaikan `nama_file.py` dengan file utama pada repository.
