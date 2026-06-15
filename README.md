@@ -1,7 +1,5 @@
 # Analisis Sentimen
 
-## Cara Menjalankan
-
 ## Deskripsi
 File UAS_Artikel adalah file scraping dan analisis sentimen artikel dari Kompas
 File UAS_Instagram adalah file scraping dan analisis sentimen reels dari Instagram
@@ -16,7 +14,7 @@ Nama file hasil analisis sentimen Kompas: news_sentiment_result.csv
 ## Cara Menjalankan
 1. Clone repository project:
 
-git clone https://github.com/username/nama-repository.git
+git clone https://github.com/olivianih/kapitaSelekta
 
 cd nama-repository
 
@@ -24,8 +22,4 @@ cd nama-repository
 
 HF_TOKEN=your_huggingface_token
 
-3. Jalankan program:
-
-python nama_file.py
-
-Sesuaikan `nama_file.py` dengan file utama pada repository.
+3. Jalankan program
